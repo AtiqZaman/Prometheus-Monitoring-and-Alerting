@@ -1,6 +1,8 @@
 # PrometheusMonitoring
 Servers Monitoring with Prometheus
 
+Youtube link: https://www.youtube.com/watch?v=DCv09aOKK1c&t=297s 
+
 Commands:
 First of all run prometheus server
 Command to run Prometheus
