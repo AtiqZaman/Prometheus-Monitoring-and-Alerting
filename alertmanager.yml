@@ -1,0 +1,32 @@
+global:
+  resolve_timeout: 20s
+
+route:
+  group_by: ['alertname']
+  group_wait: 10s
+  group_interval: 10s
+  repeat_interval: 1h
+  receiver: 'web.hook'
+receivers:
+- name: 'web.hook'
+  webhook_configs:
+  - url: 'http://db94f4e9.ngrok.io/prometheus'
+
+#inhibit_rules:
+#  - source_match:
+#      severity: 'critical'
+#    target_match:
+#      severity: 'warning'
+#    equal: ['alertname', 'dev', 'instance']
+
+
+
+#- name: email-me
+#  email_configs:
+#  - to: atiq2015@namal.edu.pk
+#    from: atiqzaman61@gmail.com
+#    smarthost: smtp.gmail.com:587
+#    auth_username: "atiqzaman61@gmail.com"
+#    auth_identity: "atiqzaman61@gmail.com"
+#    auth_password: "KhichiSab1"
+
