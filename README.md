@@ -1,4 +1,4 @@
-# PrometheusMonitoring
+# Prometheus Monitoring and alerting
 Servers Monitoring with Prometheus
 
 Youtube Video Tutorial: https://www.youtube.com/watch?v=DCv09aOKK1c&t=297s 
