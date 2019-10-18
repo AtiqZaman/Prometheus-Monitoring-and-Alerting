@@ -39,5 +39,3 @@ Forwarding                    https://20c1db33.ngrok.io -> http://localhost:5003
 
 Copy the first link  http://20c1db33.ngrok.io and use it in alertmanager
 
-Thanks 
-:)
